@@ -2,6 +2,10 @@
 
 Для просмотра схемы используйте Logic Circuit: https://www.logiccircuit.org/
 
+**English.** This processor can be hand-made. The only logic gates the circuit uses are **NOT**, **OR**, **AND**, **XOR**, **NOR**. You can adjust the word size by adding more wires and logic gates in line with the circuit. The circuit provided here is a minimalistic 4-bit one with 155 logic components.
+
+Use Logic Circuit to view the circuit: https://www.logiccircuit.org/
+
 ## Эмуляция
 В src находится эмулятор процессора, написанный на языке C, компилируется командой **gcc "эмуляция.c"**. Эмулятор имеет некоторый набор операций, который при необходимости нужно добавить в память схемы, так как представленная схема имеет только одну операцию - инкремент счётчика комманд. С помощью эмулятора можно задать битность процессора, написать для него программу и посмотреть на результат выполнения.
 
